@@ -1,0 +1,14 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.form h1{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+body{
+  background-color: #606468;
+}
