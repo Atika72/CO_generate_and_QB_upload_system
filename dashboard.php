@@ -28,7 +28,7 @@ $resultQuery = mysqli_query($connection, $query);
 				<ul class="nav-bar">
 					<div class="bg"></div>
 					<li><a class="nav-link active" href="#home">Home</a></li>
-					<li><a class="nav-link" href="#Course">Course Outline</a></li>
+					<li><a class="nav-link" href="./StudentCO.php">Course Outline</a></li>
 					<li><a class="nav-link" href="./QuestionBank.php">Question Bank</a></li>
 					<?php if (isset($_SESSION['auth_user'])): ?>
 					<li><a class="nav-link" href="">

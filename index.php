@@ -21,7 +21,7 @@
                 <ul class="nav-bar">
                     <div class="bg"></div>
                     <li><a class="nav-link active" href="#home">Home</a></li>
-                    <li><a class="nav-link" href="#Course">Course Outline</a></li>
+                    <li><a class="nav-link" href="./index.php">Course Outline</a></li>
                     <li><a class="nav-link" href="./index.php">Question Bank</a></li>
                     <li><a class="nav-link" href="./Faculty/Faculty.php">Faculty-Site</a></li>
                     <li><a class="nav-link" href="./Registration.php">Register</a></li>
