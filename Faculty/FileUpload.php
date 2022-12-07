@@ -17,6 +17,6 @@ if (isset($_POST['submit'])) {
 
     $sql="INSERT INTO file(filename,courseid,session) values('$pdf','$courseid','$session')";
     $query=mysqli_query($connection,$sql);
-    header('location:FacultyCourseShow.php');
+    header('location:FacultyQBShow.php');
 
   }

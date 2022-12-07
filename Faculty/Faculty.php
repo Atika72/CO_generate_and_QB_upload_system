@@ -30,7 +30,13 @@ include_once "../VerifyAuth.php";
             <a class="nav-link" aria-current="page" href="../index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./FacultyCourseShow.php">Question Bank</a>
+            <a class="nav-link" aria-current="page" href="./CourseOutline.php">Course Outline List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./CreateCO.php">Create Course Outline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./FacultyQBShow.php">Question Bank</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./Faculty.php">Upload Question</a>
