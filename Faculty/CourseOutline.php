@@ -40,7 +40,7 @@ $resultQuery = mysqli_query($connection, $query);
             <a class="nav-link" aria-current="page" href="./CreateCO.php">Create Course Outline</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./FacultyQB.php">Question Bank</a>
+            <a class="nav-link" aria-current="page" href="./FacultyQBShow.php">Question Bank</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./Faculty.php">Upload Question</a>

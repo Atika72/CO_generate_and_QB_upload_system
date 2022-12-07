@@ -85,11 +85,12 @@ $resultQuery = mysqli_query($connection, $query);
                 <?php
                 while ($data = mysqli_fetch_assoc($resultQuery)) { ?>
                 <tr>
-                    <th scope="row">
-                        <?php echo $data['id'] ?>
-                    </th>
+                    
                     <td>
                         <?php echo $data['courseid'] ?>
+                    </td>
+                    <td>
+                        <?php echo $data['session'] ?>
                     </td>
                     <td>
                         <?php echo $data['filename'] ?>
